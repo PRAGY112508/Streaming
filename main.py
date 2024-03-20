@@ -20,7 +20,7 @@ def main() -> None:
     service.stop_stream(reference)
 
     # create another device and streaming service
-    service2 = TwitchStreamingService()
+    service2 = TwitterStreamingService()
     service2.add_device(dslr_camera)
     service2.add_device(webcam)
 
