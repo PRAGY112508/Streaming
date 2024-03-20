@@ -1,7 +1,7 @@
 import logging
 
 from stream.dslr_camera import dslr_camera
-from stream.twitch_stream import TwitchStreamingService
+from stream.twitch_stream import TwitterStreamingService
 from stream.webcam import webcam
 from stream.youtube_stream import YouTubeStreamingService
 
